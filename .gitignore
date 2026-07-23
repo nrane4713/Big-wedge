@@ -1,0 +1,16 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# chainlit
+.chainlit/
+chainlit.db
+
+# fetched articles + vector db (regenerate with fetch_articles.py / build_index.py)
+data/
